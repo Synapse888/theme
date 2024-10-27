@@ -9,13 +9,13 @@ local ThemeManager = {} do
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
 		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"#05e2ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
-		['BBot'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
-		['Fatality']		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
-		['Jester'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
-		['Mint'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
-		['Tokyo Night'] 	= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
-		['Ubuntu'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
-		['Quartz'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
+		['Hallowen'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffaf00","MainColor":"000000","AccentColor":"ff9a00","BackgroundColor":"141414","OutlineColor":"fda000"}') },
+		['Winter']		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ffffff","BackgroundColor":"2d2d2d","OutlineColor":"bebebe"}') },
+		['Sleep'] 			= { 4, httpService:JSONDecode('{""FontColor":"ffffff","MainColor":"2c2c2c","AccentColor":"27244a","BackgroundColor":"2d2d2d","OutlineColor":"27244a"}') },
+		['Night'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2c2c2c","AccentColor":"5b5b5b","BackgroundColor":"424242","OutlineColor":"5b5b5b"}') },
+		['Blood'] 	= { 6, httpService:JSONDecode('{"FontColor":"f5efef","MainColor":"1b1919","AccentColor":"ff0000","BackgroundColor":"282828","OutlineColor":"ff0000"}') },
+		['Visual'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"002c84","BackgroundColor":"0d0d0d","OutlineColor":"002c84"}') },
+		['Preaper'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1a1a1a","AccentColor":"00331d","BackgroundColor":"191919","OutlineColor":"00331d"}') },
 	}
 
 	function ApplyBackgroundVideo(webmLink)
